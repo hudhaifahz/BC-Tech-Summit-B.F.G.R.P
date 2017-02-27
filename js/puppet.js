@@ -1,8 +1,4 @@
-var ip = require{'./ip.js');
-var ip = ip();
-
-window.puppetURL = 'http://' + ip + ':8080';
-//http://192.168.1.64:8080/puppet.php?param=
+window.puppetURL = 'http://192.168.1.70/puppet.php?param=';
 
 /** Gets code from server and returns the value of the button
  * @param
@@ -61,7 +57,7 @@ function snapBack(slider) {
         intReturnVal  = parseInt(returnVal);
         intCurrentVal = parseInt(currentVal);
 
-        while(abs(intCurrentVal - intReturnVal) >= 10) {
+        while(Math.abs(intCurrentVal - intReturnVal) >= 10) {
             if(intCurrentVal > 0) {
               intCurrentVal = intCurrentVal - 10;
             }
