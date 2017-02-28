@@ -1,6 +1,6 @@
 <?php
 
-$remote = 'http://localhost:8080';
+$remote = 'http://192.168.1.11:8080';
 $url    = $remote.$_GET['param'];
 
 $ctx = stream_context_create(array(
