@@ -1,4 +1,4 @@
-window.puppetURL = 'http://192.168.1.10/puppet.php?param=';
+window.puppetURL = 'http://192.168.1.11:8080';
 
 /** Gets code from server and returns the value of the button
  * @param
