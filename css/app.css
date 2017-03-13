@@ -974,7 +974,8 @@ label {
     border-top: 1px dashed rgba(250, 250, 250, 0.25);
   border-radius: 0;
   background-color: transparent;
-  color: #0a0a0a; }
+    color: white;
+}
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
@@ -1080,12 +1081,6 @@ label {
 #codeerror, #error {
     color: white;
     padding: 2px 0;
-}
-
-.codebutton {
-}
-
-.codebutton:active {
 }
 
 a {
