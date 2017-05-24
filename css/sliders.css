@@ -18,7 +18,7 @@ label {
     }
 
     body {
-        background-image: url("icons/robotbkg.svg");
+        background-image: url("/images/robotbkg.svg");
         background-repeat: no-repeat;
         background-size: 40%;
         background-position: center top;
